@@ -14,7 +14,8 @@ class TutorialItem(scrapy.Item):
     pass
 
 
-image = scrapy.Field()
-description = scrapy.Field()
-title = scrapy.Field()
+class ItemClass(scrapy.Item):
+    image = scrapy.Field()
+    title = scrapy.Field()
+    descr = scrapy.Field()
 
